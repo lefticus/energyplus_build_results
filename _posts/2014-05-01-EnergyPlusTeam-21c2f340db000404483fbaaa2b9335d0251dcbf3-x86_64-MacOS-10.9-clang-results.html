@@ -3,10 +3,10 @@ title: EnergyPlusTeam-21c2f340db000404483fbaaa2b9335d0251dcbf3-x86_64-MacOS-10.9
 permalink: EnergyPlusTeam-21c2f340db000404483fbaaa2b9335d0251dcbf3-x86_64-MacOS-10.9-clang.html
 tags: data
 layout: ci_results
-date: 2014-05-01 03:04:53
+date: 2014-05-01 03:05:34
 unhandled_failure: false
-build_error_count: 0
-build_warning_count: 0
+build_error_count: 1
+build_warning_count: 1
 package_error_count: 0
 package_warning_count: 0
 test_count: 0
@@ -27,9 +27,9 @@ pull_request_issue_id: ""
 pull_request_base_repository: 
 pull_request_base_ref: 
 device_id: x86_64-MacOS-10.9-clang
-pending: true
+pending: false
 analyze_only: false
 ---
 
-{"build_results":[],"test_results":[],"failure":null,"package_results":[]}
+{"build_results":[{"filename":"third_party/ObjexxFCL/src/ObjexxFCL/Optional.hh","linenumber":"129","colnumber":"11","messagetype":"error","message":"allocating an object of abstract class type 'Value' (aka 'ObjexxFCL::FArray1<int>')"},{"filename":"third_party/ObjexxFCL/src/ObjexxFCL/gio.cc","linenumber":"69","colnumber":"21","messagetype":"warning","message":"'tmpnam' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of tmpnam(3), it is highly recommended that you use mkstemp(3) instead. [-Wdeprecated-declarations]"}],"test_results":[],"failure":null,"package_results":[]}
 
